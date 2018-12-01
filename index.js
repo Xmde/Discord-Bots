@@ -1,6 +1,6 @@
 const Commando = require('discord.js-commando');
 const bot = new Commando.Client();
-const TOKEN = 'NTE4NTYyODA5MDA1NjA0OTAx.DuSl9g.FLNL3jAzgKqKIxdwUGCUhry1D6g';
+const TOKEN = 'BOT_TOKEN';
 
 bot.on('message', function(message){
     if(message.content == 'Hello'){
